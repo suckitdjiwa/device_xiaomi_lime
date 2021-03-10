@@ -121,6 +121,9 @@ TARGET_COPY_OUT_PRODUCT := product
 # Enable Virtual A/B
 ENABLE_VIRTUAL_AB := true
 
+# Sepolicy
+TARGET_USES_PREBUILT_VENDOR_SEPOLICY := true
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 
