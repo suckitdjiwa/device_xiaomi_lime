@@ -72,4 +72,5 @@ TARGET_COMMON_QTI_COMPONENTS += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    XiaomiBluetooth
+    XiaomiBluetooth \
+    XiaomiFrameworks
