@@ -69,3 +69,7 @@ TARGET_COMMON_QTI_COMPONENTS += \
     vibrator \
     wfd \
     wlan
+
+# Overlays
+PRODUCT_PACKAGES += \
+    XiaomiBluetooth
