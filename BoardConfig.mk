@@ -46,6 +46,9 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a9
 
+# UEFI
+TARGET_USES_UEFI := true
+
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
 
