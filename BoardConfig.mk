@@ -47,8 +47,8 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a9
 
-# UEFI
-TARGET_USES_UEFI := true
+# Assert.
+TARGET_OTA_ASSERT_DEVICE := lime,citrus,pomelo,lemon
 
 # Audio
 USE_XML_AUDIO_POLICY_CONF := 1
