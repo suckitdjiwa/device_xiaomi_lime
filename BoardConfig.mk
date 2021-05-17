@@ -122,6 +122,9 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_PRODUCT := product
 
+# Properties
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/configs/properties/system.prop
+
 # Enable Virtual A/B
 ENABLE_VIRTUAL_AB := true
 
