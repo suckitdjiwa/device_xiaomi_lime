@@ -60,22 +60,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/uinput-cdfinger.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-cdfinger.kl
 
 # QTI
-TARGET_COMMON_QTI_COMPONENTS += \
-    adreno \
-    audio \
-    av \
-    bt \
-    display \
-    gps \
-    init \
-    media-legacy \
-    overlay \
-    perf \
-    telephony \
-    usb \
-    vibrator \
-    wfd \
-    wlan
+TARGET_COMMON_QTI_COMPONENTS := all
 
 # Overlays
 PRODUCT_PACKAGES += \
