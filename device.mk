@@ -24,6 +24,10 @@ $(call inherit-product-if-exists, vendor/xiaomi/lime/lime-vendor.mk)
 # Board
 TARGET_BOARD_PLATFORM := bengal
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/audio_policy_configuration.xml \
+    $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_TARGET_VNDK_VERSION)/etc/audio/audio_policy_configuration.xml
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/lime
