@@ -66,3 +66,9 @@ TARGET_COMMON_QTI_COMPONENTS := all
 PRODUCT_PACKAGES += \
     XiaomiBluetooth \
     XiaomiFrameworks
+
+# Remove stock overlays
+PRODUCT_PACKAGES += \
+    FrameworksResTarget \
+    DevicesOverlay \
+    DevicesAndroidOverlay
